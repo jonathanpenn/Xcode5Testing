@@ -1,0 +1,1 @@
+Some sample code to demonstrate a unit tested time interval formatter, testing an in memory Core Data Stack, and testing that outlets and actions are wired up in a UIViewController that is loaded from a storyboard.
