@@ -7,11 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB1D984B18071F4400225BEE /* RCWRootViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1D984A18071F4400225BEE /* RCWRootViewControllerTest.m */; };
+		AB78C00E180711F9000CA909 /* RCWTimeIntervalFormatterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C00D180711F9000CA909 /* RCWTimeIntervalFormatterTest.m */; };
+		AB78C0111807120D000CA909 /* RCWTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C0101807120D000CA909 /* RCWTimeIntervalFormatter.m */; };
+		AB78C0121807120D000CA909 /* RCWTimeIntervalFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C0101807120D000CA909 /* RCWTimeIntervalFormatter.m */; };
 		AB78C01A180712E2000CA909 /* JournalEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C015180712E2000CA909 /* JournalEntry.m */; };
+		AB78C01B180712E2000CA909 /* JournalEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C015180712E2000CA909 /* JournalEntry.m */; };
 		AB78C01C180712E2000CA909 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB78C016180712E2000CA909 /* Model.xcdatamodeld */; };
+		AB78C01D180712E2000CA909 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB78C016180712E2000CA909 /* Model.xcdatamodeld */; };
 		AB78C01E180712E2000CA909 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C019180712E2000CA909 /* Tag.m */; };
+		AB78C01F180712E2000CA909 /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C019180712E2000CA909 /* Tag.m */; };
+		AB78C0221807135A000CA909 /* RCWCoreDataModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C0211807135A000CA909 /* RCWCoreDataModelTest.m */; };
+		AB78C0241807156F000CA909 /* RCWCoreDataStackTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C0231807156F000CA909 /* RCWCoreDataStackTestCase.m */; };
 		AB78C0271807177F000CA909 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB78C0261807177F000CA909 /* Storyboard.storyboard */; };
+		AB78C0281807177F000CA909 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB78C0261807177F000CA909 /* Storyboard.storyboard */; };
 		AB78C02B180717C5000CA909 /* RCWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C02A180717C5000CA909 /* RCWRootViewController.m */; };
+		AB78C02C180717C5000CA909 /* RCWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB78C02A180717C5000CA909 /* RCWRootViewController.m */; };
 		ABB8392418070FBA00316500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8392318070FBA00316500 /* Foundation.framework */; };
 		ABB8392618070FBA00316500 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8392518070FBA00316500 /* CoreGraphics.framework */; };
 		ABB8392818070FBA00316500 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8392718070FBA00316500 /* UIKit.framework */; };
@@ -19,16 +30,35 @@
 		ABB8393018070FBA00316500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB8392F18070FBA00316500 /* main.m */; };
 		ABB8393418070FBA00316500 /* RCWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB8393318070FBA00316500 /* RCWAppDelegate.m */; };
 		ABB8393618070FBA00316500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABB8393518070FBA00316500 /* Images.xcassets */; };
+		ABB8393D18070FBA00316500 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8393C18070FBA00316500 /* XCTest.framework */; };
+		ABB8393E18070FBA00316500 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8392318070FBA00316500 /* Foundation.framework */; };
+		ABB8393F18070FBA00316500 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABB8392718070FBA00316500 /* UIKit.framework */; };
+		ABB8394718070FBA00316500 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABB8394518070FBA00316500 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		ABB8394018070FBA00316500 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABB8391818070FBA00316500 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABB8391F18070FBA00316500;
+			remoteInfo = TestingInXcode5;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		AB78C00F1807120D000CA909 /* RCWTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RCWTimeIntervalFormatter.h; path = "/Users/jonathan/Desktop/2013 CocoaConf Atlanta/TestingInXcode5/TestingInXcode5/RCWTimeIntervalFormatter.h"; sourceTree = "<absolute>"; };
-		AB78C0101807120D000CA909 /* RCWTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RCWTimeIntervalFormatter.m; path = "/Users/jonathan/Desktop/2013 CocoaConf Atlanta/TestingInXcode5/TestingInXcode5/RCWTimeIntervalFormatter.m"; sourceTree = "<absolute>"; };
+		AB1D984A18071F4400225BEE /* RCWRootViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWRootViewControllerTest.m; sourceTree = "<group>"; };
+		AB78C00D180711F9000CA909 /* RCWTimeIntervalFormatterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWTimeIntervalFormatterTest.m; sourceTree = "<group>"; };
+		AB78C00F1807120D000CA909 /* RCWTimeIntervalFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWTimeIntervalFormatter.h; sourceTree = "<group>"; };
+		AB78C0101807120D000CA909 /* RCWTimeIntervalFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWTimeIntervalFormatter.m; sourceTree = "<group>"; };
 		AB78C014180712E2000CA909 /* JournalEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JournalEntry.h; sourceTree = "<group>"; };
 		AB78C015180712E2000CA909 /* JournalEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JournalEntry.m; sourceTree = "<group>"; };
 		AB78C017180712E2000CA909 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		AB78C018180712E2000CA909 /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
 		AB78C019180712E2000CA909 /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		AB78C0211807135A000CA909 /* RCWCoreDataModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWCoreDataModelTest.m; sourceTree = "<group>"; };
+		AB78C0231807156F000CA909 /* RCWCoreDataStackTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWCoreDataStackTestCase.m; sourceTree = "<group>"; };
+		AB78C02518071581000CA909 /* RCWCoreDataStackTestCase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWCoreDataStackTestCase.h; sourceTree = "<group>"; };
 		AB78C0261807177F000CA909 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		AB78C029180717C5000CA909 /* RCWRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWRootViewController.h; sourceTree = "<group>"; };
 		AB78C02A180717C5000CA909 /* RCWRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWRootViewController.m; sourceTree = "<group>"; };
@@ -43,7 +73,10 @@
 		ABB8393218070FBA00316500 /* RCWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCWAppDelegate.h; sourceTree = "<group>"; };
 		ABB8393318070FBA00316500 /* RCWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCWAppDelegate.m; sourceTree = "<group>"; };
 		ABB8393518070FBA00316500 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ABB8393B18070FBA00316500 /* TestingInXcode5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingInXcode5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABB8393C18070FBA00316500 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ABB8394418070FBA00316500 /* TestingInXcode5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestingInXcode5Tests-Info.plist"; sourceTree = "<group>"; };
+		ABB8394618070FBA00316500 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,16 @@
 				ABB8392618070FBA00316500 /* CoreGraphics.framework in Frameworks */,
 				ABB8392818070FBA00316500 /* UIKit.framework in Frameworks */,
 				ABB8392418070FBA00316500 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB8393818070FBA00316500 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8393D18070FBA00316500 /* XCTest.framework in Frameworks */,
+				ABB8393F18070FBA00316500 /* UIKit.framework in Frameworks */,
+				ABB8393E18070FBA00316500 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB8392918070FBA00316500 /* TestingInXcode5 */,
+				ABB8394218070FBA00316500 /* TestingInXcode5Tests */,
 				ABB8392218070FBA00316500 /* Frameworks */,
 				ABB8392118070FBA00316500 /* Products */,
 			);
@@ -94,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				ABB8392018070FBA00316500 /* TestingInXcode5.app */,
+				ABB8393B18070FBA00316500 /* TestingInXcode5Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +162,8 @@
 				AB78C0261807177F000CA909 /* Storyboard.storyboard */,
 				AB78C029180717C5000CA909 /* RCWRootViewController.h */,
 				AB78C02A180717C5000CA909 /* RCWRootViewController.m */,
+				AB78C00F1807120D000CA909 /* RCWTimeIntervalFormatter.h */,
+				AB78C0101807120D000CA909 /* RCWTimeIntervalFormatter.m */,
 				AB78C01318071282000CA909 /* Time Interval Formatter */,
 				AB78C02018071314000CA909 /* Core Data */,
 				ABB8393518070FBA00316500 /* Images.xcassets */,
@@ -132,6 +179,28 @@
 				ABB8392C18070FBA00316500 /* InfoPlist.strings */,
 				ABB8392F18070FBA00316500 /* main.m */,
 				ABB8393118070FBA00316500 /* TestingInXcode5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABB8394218070FBA00316500 /* TestingInXcode5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8394318070FBA00316500 /* Supporting Files */,
+				AB78C00D180711F9000CA909 /* RCWTimeIntervalFormatterTest.m */,
+				AB78C0211807135A000CA909 /* RCWCoreDataModelTest.m */,
+				AB78C02518071581000CA909 /* RCWCoreDataStackTestCase.h */,
+				AB78C0231807156F000CA909 /* RCWCoreDataStackTestCase.m */,
+				AB1D984A18071F4400225BEE /* RCWRootViewControllerTest.m */,
+			);
+			path = TestingInXcode5Tests;
+			sourceTree = "<group>";
+		};
+		ABB8394318070FBA00316500 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ABB8394418070FBA00316500 /* TestingInXcode5Tests-Info.plist */,
+				ABB8394518070FBA00316500 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,6 +225,24 @@
 			productReference = ABB8392018070FBA00316500 /* TestingInXcode5.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ABB8393A18070FBA00316500 /* TestingInXcode5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABB8394F18070FBA00316500 /* Build configuration list for PBXNativeTarget "TestingInXcode5Tests" */;
+			buildPhases = (
+				ABB8393718070FBA00316500 /* Sources */,
+				ABB8393818070FBA00316500 /* Frameworks */,
+				ABB8393918070FBA00316500 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABB8394118070FBA00316500 /* PBXTargetDependency */,
+			);
+			name = TestingInXcode5Tests;
+			productName = TestingInXcode5Tests;
+			productReference = ABB8393B18070FBA00316500 /* TestingInXcode5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +252,11 @@
 				CLASSPREFIX = RCW;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rubber City Wizards, Ltd.";
+				TargetAttributes = {
+					ABB8393A18070FBA00316500 = {
+						TestTargetID = ABB8391F18070FBA00316500;
+					};
+				};
 			};
 			buildConfigurationList = ABB8391B18070FBA00316500 /* Build configuration list for PBXProject "TestingInXcode5" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -179,6 +271,7 @@
 			projectRoot = "";
 			targets = (
 				ABB8391F18070FBA00316500 /* TestingInXcode5 */,
+				ABB8393A18070FBA00316500 /* TestingInXcode5Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +287,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABB8393918070FBA00316500 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABB8394718070FBA00316500 /* InfoPlist.strings in Resources */,
+				AB78C0281807177F000CA909 /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -202,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB78C01E180712E2000CA909 /* Tag.m in Sources */,
+				AB78C0111807120D000CA909 /* RCWTimeIntervalFormatter.m in Sources */,
 				ABB8393018070FBA00316500 /* main.m in Sources */,
 				AB78C02B180717C5000CA909 /* RCWRootViewController.m in Sources */,
 				AB78C01C180712E2000CA909 /* Model.xcdatamodeld in Sources */,
@@ -210,13 +313,45 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ABB8393718070FBA00316500 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB78C02C180717C5000CA909 /* RCWRootViewController.m in Sources */,
+				AB78C00E180711F9000CA909 /* RCWTimeIntervalFormatterTest.m in Sources */,
+				AB78C0241807156F000CA909 /* RCWCoreDataStackTestCase.m in Sources */,
+				AB1D984B18071F4400225BEE /* RCWRootViewControllerTest.m in Sources */,
+				AB78C0121807120D000CA909 /* RCWTimeIntervalFormatter.m in Sources */,
+				AB78C01B180712E2000CA909 /* JournalEntry.m in Sources */,
+				AB78C01D180712E2000CA909 /* Model.xcdatamodeld in Sources */,
+				AB78C01F180712E2000CA909 /* Tag.m in Sources */,
+				AB78C0221807135A000CA909 /* RCWCoreDataModelTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABB8394118070FBA00316500 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABB8391F18070FBA00316500 /* TestingInXcode5 */;
+			targetProxy = ABB8394018070FBA00316500 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ABB8392C18070FBA00316500 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				ABB8392D18070FBA00316500 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ABB8394518070FBA00316500 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABB8394618070FBA00316500 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -320,6 +455,48 @@
 			};
 			name = Release;
 		};
+		ABB8395018070FBA00316500 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestingInXcode5.app/TestingInXcode5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingInXcode5/TestingInXcode5-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestingInXcode5Tests/TestingInXcode5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ABB8395118070FBA00316500 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestingInXcode5.app/TestingInXcode5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestingInXcode5/TestingInXcode5-Prefix.pch";
+				INFOPLIST_FILE = "TestingInXcode5Tests/TestingInXcode5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +514,15 @@
 			buildConfigurations = (
 				ABB8394D18070FBA00316500 /* Debug */,
 				ABB8394E18070FBA00316500 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABB8394F18070FBA00316500 /* Build configuration list for PBXNativeTarget "TestingInXcode5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABB8395018070FBA00316500 /* Debug */,
+				ABB8395118070FBA00316500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
