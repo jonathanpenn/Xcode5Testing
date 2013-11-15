@@ -7,7 +7,6 @@
 //
 
 #import "RCWRootViewController.h"
-#import "RCWTimeIntervalFormatter.h"
 
 @interface RCWRootViewController ()
 @property (nonatomic) NSUInteger tapCount;
@@ -39,10 +38,13 @@
 }
 
 - (void)updateElapsedLabel {
-    RCWTimeIntervalFormatter *tif = [[RCWTimeIntervalFormatter alloc] init];
-    NSTimeInterval interval = 0-[self.timeOfLastTap timeIntervalSinceNow];
-    NSString *formatted = [tif stringFromTimeInterval:interval];
-    NSString *message = [NSString stringWithFormat:@"Last pressed %@ ago", formatted];
+    NSTimeInterval fullSeconds = 0-[self.timeOfLastTap timeIntervalSinceNow];
+    NSUInteger minutes = round(fullSeconds / 60);
+    NSUInteger seconds = round(fullSeconds - minutes * 60);
+
+    NSString *message = [NSString stringWithFormat:@"Last pressed %dm %ds ago",
+                         minutes, seconds];
+
     self.elapsedLabel.text = message;
 }
 
