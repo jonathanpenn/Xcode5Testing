@@ -42,8 +42,8 @@
     NSUInteger minutes = round(fullSeconds / 60);
     NSUInteger seconds = round(fullSeconds - minutes * 60);
 
-    NSString *message = [NSString stringWithFormat:@"Last pressed %dm %ds ago",
-                         minutes, seconds];
+    NSString *message = [NSString stringWithFormat:@"Last pressed %lum %lus ago",
+                         (unsigned long)minutes, (unsigned long)seconds];
 
     self.elapsedLabel.text = message;
 }
